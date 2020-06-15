@@ -1,4 +1,46 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# React Beach Resort Project
+
+### See Website: https://react-resort-tutorial.netlify.com/
+
+<img src="./screenshots/demo.gif" width="500">
+
+Note: currently website is coded to show the data that is locally stored in the data.js file, however, can go into the context.js file to to switch over to pulling data from Contentful.
+
+<strong>Based off of the ~6 hour</strong> [In-Depth React Tutorial: Build a Hotel Reservation Site (with Contentful and Netlify)
+](https://www.youtube.com/watch?v=LXJOvkVYQqA) on FreeCodeCamp by Coding Addict.
+
+Account on Contentful is linked to this Github account.
+
+<strong>Set Up Files</strong>: [https://github.com/john-smilga/setup-files-react-beach-resort](https://github.com/john-smilga/setup-files-react-beach-resort)
+
+Important! When deploying to Netlify don't forget to manually write in the environment variables (see image below)
+
+<img src="./screenshots/netlify-environment-variables.png" width="500">
+
+VSCode Tip: Command + Shift + V to see README preview.
+
+<hr/>
+
+## Dependencies
+
+- `npm install react-router-dom`
+- `npm install react-icons`
+  - <strong>React Icons Documentation:</strong>https://react-icons.netlify.com/#/
+- `npm install styled-components`
+  - <strong>Styled Components Documentation: </strong>https://www.styled-components.com/docs
+- `npm install contentful`
+  - Contentful: https://www.contentful.com/
+
+## Other Resources
+
+- <strong>"React Router Dom" does not play very well with "Netlify" out of the box</strong>, which means a <em>redirect file</em> is needed.
+
+  - The redirect file is located in the "set up" folder that Coding Addict provides. It's called "\_redirects" and will be placed in the public folder.
+  - See [Page Not Found on Netlify with React Router](https://sung.codes/blog/2018/12/18/page-not-found-on-netlify-with-react-router/) for a more in-depth explanation.
+
+- <strong>React Context API Documentation: </strong>https://reactjs.org/docs/context.html#reactcreatecontext
+
+- <strong>(Very useful!) Enable Emmet for React.js JSX in VSCode: </strong> https://www.youtube.com/watch?v=8dkGmPprlWM
 
 ## Available Scripts
 
