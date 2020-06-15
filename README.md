@@ -1,23 +1,8 @@
 # React Beach Resort Project
 
-### See Website: https://react-resort-tutorial.netlify.com/
+### See Website: https://application-beachresort-react.netlify.app/
 
-<img src="./screenshots/demo.gif" width="500">
-
-Note: currently website is coded to show the data that is locally stored in the data.js file, however, can go into the context.js file to to switch over to pulling data from Contentful.
-
-<strong>Based off of the ~6 hour</strong> [In-Depth React Tutorial: Build a Hotel Reservation Site (with Contentful and Netlify)
-](https://www.youtube.com/watch?v=LXJOvkVYQqA) on FreeCodeCamp by Coding Addict.
-
-Account on Contentful is linked to this Github account.
-
-<strong>Set Up Files</strong>: [https://github.com/john-smilga/setup-files-react-beach-resort](https://github.com/john-smilga/setup-files-react-beach-resort)
-
-Important! When deploying to Netlify don't forget to manually write in the environment variables (see image below)
-
-<img src="./screenshots/netlify-environment-variables.png" width="500">
-
-VSCode Tip: Command + Shift + V to see README preview.
+<img src="./screenshots/beach-resort.gif" width="500">
 
 <hr/>
 
